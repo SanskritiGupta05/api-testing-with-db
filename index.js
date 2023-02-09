@@ -9,8 +9,18 @@ dotenv.config();
 mongoose.connect(
     process.env.DB_CONNECT,
     { useUnifiedTopology: true, useNewUrlParser: true},
-    () => console.log("connect to db")
+    () => console.log("connected to db")
 );
+
+// Import routes
+const sampleRoutes = require("./routes/sample");
+
+// route Middlewares
+app.use("/api/sample", sampleRoutes);
+
+// Middlewares
+app.use(express.json());
+app.use(cors());
 
 app.listen(4000, () => console.log("server up and running on port 4000!"));
 
