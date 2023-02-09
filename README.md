@@ -9,7 +9,7 @@ Attaching the screenshot of the API Test result done with the help of vs code ex
 
 ## Second Attempt at API Testing:
 
-I decided to test [my local API](https://github.com/SanskritiGupta05/anime-api-testing) which i Build for the Task-4 of Keploy Fellowship (Although, it does not have a database connected to it)
+I decided to test [my local API](https://github.com/SanskritiGupta05/anime_api) which i Build for the Task-4 of Keploy Fellowship (Although, it does not have a database connected to it)
 
 ### `200 OK response` on the request to show the list of all animes from API?
 <img width="723" alt="image" src="https://user-images.githubusercontent.com/77205923/217915763-cb423347-b87e-4f0c-a0e2-ea17f698fe48.png">
